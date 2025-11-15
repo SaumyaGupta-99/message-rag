@@ -24,7 +24,7 @@ A high-performance RAG (Retrieval-Augmented Generation) system built with FAISS,
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
+git clone git@github.com:SaumyaGupta-99/message-rag.git
 cd message-rag
 ```
 
@@ -256,7 +256,7 @@ docker run -d \
     message-rag:latest
 ```
 
-## 🛠️ Development
+## Development
 
 ### Running Tests
 
@@ -280,3 +280,25 @@ rm -rf data/faiss_index/
 # Rebuild
 uv run python src/message_rag/faiss_indexer.py
 ```
+
+## Potential Updates
+
+This section describes enhancements that would have been added with more time.  
+They focus on improving efficiency, quality, and usability.
+
+### Smarter chunking
+A more advanced chunking process would be introduced using overlapping context windows.  
+This would allow the system to capture shared information across segments and improve coverage of diverse topics.
+
+### Chain of Thought prompting for clearer reasoning
+The prompting strategy would be extended with structured reasoning steps to make explanations easier to follow.  
+This would strengthen interpretability and help users understand how answers are produced.
+
+### Automatic citation generation
+A mechanism would be added to attach references to each answer using the retrieved source passages.  
+This would produce more holistic and verifiable responses.
+
+### User interface improvements
+A simple interface would be added to support better interaction outside the notebook environment.  
+This may include input fields for queries, highlighted retrieved evidence, and a layout that shows reasoning and citations in an organized way.
+
