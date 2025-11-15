@@ -1,0 +1,22 @@
+{
+  "total_messages": 3349,
+  "total_users": 10,
+  "index_size": 3349,
+  "model": "all-MiniLM-L6-v2",
+  "dimension": 384,
+  "users": {
+    "Sophia Al-Farsi": 346,
+    "Fatima El-Tahir": 349,
+    "Armand Dupont": 319,
+    "Hans M\u00fcller": 314,
+    "Layla Kawaguchi": 330,
+    "Amina Van Den Berg": 342,
+    "Vikram Desai": 335,
+    "Lily O'Sullivan": 365,
+    "Lorenzo Cavalli": 288,
+    "Thiago Monteiro": 361
+  },
+  "earliest_message": "2024-11-08T21:38:58.173231+00:00",
+  "latest_message": "2025-11-08T19:04:45.175369+00:00",
+  "index_type": "Flat"
+}

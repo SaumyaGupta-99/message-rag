@@ -1,0 +1,19 @@
+FAISS Index Summary (Complete Dataset)
+==================================================
+Created: 2025-11-09T16:11:24.664802
+Model: all-MiniLM-L6-v2
+Dimension: 384
+Total vectors: 3349
+Unique users: 10
+
+User distribution:
+  Lily O'Sullivan: 365 messages
+  Thiago Monteiro: 361 messages
+  Fatima El-Tahir: 349 messages
+  Sophia Al-Farsi: 346 messages
+  Amina Van Den Berg: 342 messages
+  Vikram Desai: 335 messages
+  Layla Kawaguchi: 330 messages
+  Armand Dupont: 319 messages
+  Hans Müller: 314 messages
+  Lorenzo Cavalli: 288 messages
